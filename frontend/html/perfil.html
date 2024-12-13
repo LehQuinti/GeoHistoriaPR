@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoHistória PR</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="../img/logo.png" alt="GeoHistória PR" class="logo">
+            <a href="./home.html"><h1>GeoHistória PR</h1></a>
+        </div>
+        <div class="user-container">
+            Olá, <span id="user-name">Nome_Do_Usuário</span>
+            <button id="btn-perfil" class="btn-header">Perfil</button>
+            <button id="btn-favoritos" class="btn-header">Ver Favoritos</button>
+            <button id="btn-sair" class="btn-header btn-exit">Sair</button>
+        </div>
+    </header>
+    <main>
+        <form id="form-login">
+            <div class="item-form">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" /> 
+            </div>
+            <div class="item-form">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" /> 
+            </div>
+            <div class="item-form">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" /> 
+            </div>
+            <button type="submit">Atualizar</button>
+        </form>
+        <div>
+            <a href="#" id="excluirConta">Excluir conta</a>
+        </div>
+    </main>
+    <script src="../javascript/header.js"></script>
+    <script src="../javascript/perfil.js"></script>
+</body>
+</html>

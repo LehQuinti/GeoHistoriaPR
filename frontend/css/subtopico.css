@@ -1,0 +1,49 @@
+#subtopic-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#subtopic-header h2 {
+    font-size: 28px;
+    color: #ffa500; /* Laranja */
+}
+
+#materials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.material {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.material img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Botão não favoritado */
+.btn-favoritar {
+    background-color: transparent;
+    border: 1px solid #dc3545; 
+    color: #dc3545;
+}
+
+.btn-favoritar:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Botão favoritado */
+.btn-favoritado {
+    background-color: #dc3545;
+    color: #fff;
+}
